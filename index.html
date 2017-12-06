@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Hangman</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ </head>
+
+<body>
+
+	<div class="container">
+		
+		<div class="jumbotron">
+			<h1>Hangman</h1>
+			<p>Guess the piece of furniture</p>
+		</div>
+
+		<div class="card">
+  			<div class="card-header">
+    			Guess the word
+  			</div>
+  			<div class="card-body">
+    			<p class="card-text">
+    				<span id="dashes">_ _ _ _</span>	
+				</p>
+  			</div>
+		</div>
+
+		<div class="card">
+  			<div class="card-header">
+    			Letters Guessed: 
+  			</div>
+  			<div class="card-body">
+    			<p class="card-text">
+    				<span id="letrsGuessed">letrsGuessed</span>
+				</p>
+  			</div>
+		</div>
+
+		<div class="card">
+  			<div class="card-header">
+    			Guesses Left: 
+  			</div>
+  			<div class="card-body">
+    			<p class="card-text">
+    				<span id="GuessesLft">GuessesLft</span>
+				</p>
+  			</div>
+		</div>
+
+		<div class="card">
+  			<div class="card-header">
+    			Wins: 
+  			</div>
+  			<div class="card-body">
+    			<p class="card-text">
+    				<span id="winCounter">winCounter</span>
+				</p>
+  			</div>
+		</div>
+
+		<div class="card">
+  			<div class="card-header">
+    			Losses: 
+  			</div>
+  			<div class="card-body">
+    			<p class="card-text">
+    				<span id="lossesCounter">lossesCounter</span>
+				</p>
+  			</div>
+		</div>
+
+		
+
+
+
+
+
+
+
+
+	</div>
+    
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
+
+
