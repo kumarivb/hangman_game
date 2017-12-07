@@ -32,6 +32,7 @@ $(document).ready(function() {
 	document.onkeyup = function(event) {
 		var letterGuessed = String.fromCharCode(event.keyCode).toLowerCase();
 		matchLetrs(letterGuessed);
+		//console.log("loaded");
 	}
 
 // display dashes
@@ -70,6 +71,7 @@ $(document).ready(function() {
 		//console.log(correctLettrsAndDashes);
 	}
 		
+// display letters guessed
 
 // display dashes of word to guess
 	document.getElementById("dashes").innerHTML = correctLettrsAndDashes.join(" ");
